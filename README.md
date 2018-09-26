@@ -21,7 +21,7 @@
 * FBI keeps hashes of illegal images so that, without storing those images in a database, they can identify illegal data by the hash instead of by the actual images
 
 ## Symmetric
-![](./symmetric diagram.png)
+![](CryptographyNotes/symmetric diagram.png)
 * Uses one key to both encrypt and decrypt, thus both parties have to know the secret key in order to communicate
 * You can just exchange this key with the person you want to communicate with
 * Or you can use the Diffie-Hellman key exchange
