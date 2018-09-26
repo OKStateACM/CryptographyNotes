@@ -34,4 +34,14 @@
 
 ## Asymmetric
 ![asymmetric](https://github.com/OKStateACM/CryptographyNotes/blob/master/asymmetric%20diagram.png)
-*
+* Uses a public and private key that are mathematically linked, public for encryption and private for decryption
+* Anyone can access user's public key to send them encrypted data, but the data can only be decrypted by the private key, which is kept secret
+* To generate a public and private key pair:
+	* Pick 2 large primes, p and q
+	* Calculate n = p * q
+	* Perform Euler's totient, (p-1)*(q-1)
+	* pick an e that is coprime with p and q
+	* from there, we have the formula e = d(mod(Euler's totient)) which allows us to find the d
+	* Public key: (n, e) Private key: (n, d)
+	* Encryption formula: c = m<sup>e</sup> mod n
+	* Decryption formula: m = c<sup>d</sup> mod n
