@@ -23,7 +23,7 @@
 * FBI keeps hashes of illegal images so that, without storing those images in a database, they can identify illegal data by the hash instead of by the actual images
 
 ## Symmetric
-![symmetric](https://imgur.com/2NCLq9c)
+![symmetric](https://github.com/OKStateACM/CryptographyNotes/blob/master/symmetric%20diagram.png)
 * Uses one key to both encrypt and decrypt, thus both parties have to know the secret key in order to communicate
 * You can just exchange this key with the person you want to communicate with
 * Or you can use the Diffie-Hellman key exchange
@@ -35,7 +35,7 @@
 	* Simplified: (g<sup>a</sup> mod p)<sup>b</sup> mod p = g<sup>ab</sup> mod p and (g<sup>b</sup> mod p)<sup>a</sup> mod p = g<sup>ba</sup> mod p
 
 ## Asymmetric
-![asymmetric](https://imgur.com/sWmrhsK)
+![asymmetric](https://github.com/OKStateACM/CryptographyNotes/blob/master/asymmetric%20diagram.png)
 * Uses a public and private key that are mathematically linked, public for encryption and private for decryption
 * Anyone can access user's public key to send them encrypted data, but the data can only be decrypted by the private key, which is kept secret
 * [Visual Example](https://youtu.be/vgTtHV04xRI?list=WL&t=116)
