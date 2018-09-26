@@ -11,8 +11,9 @@
 ## Ciphers
 * A means of putting something into a secret code by means of an algorithm
 * For example, a [Caesar cipher](https://cryptii.com/pipes/caesar-cipher), which is one of the first and most basic forms of cipher. It assigns each letter of the alphabet to a number, A=1 B=2 C=3 etc., and utilizes a set numerical key added to the number values of each letter.
+* Printable version of a [Caesar cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf)
 * In industry you will not write your own encryption algorithms. You will use ones that have been written and thoroughly tested by researchers. This ensures it will be secure and statistically impossible to crack (ex. MD5, SHA 1)
-![meme](https://github.com/OKStateACM/CryptographyNotes/blob/master/crypto%20meme.png)
+![meme](https://github.com/OKStateACM/CryptographyNotes/blob/master/crypto%20meme.jpeg)
 
 ## Hashes 
 * Also known as digests or checksums
@@ -34,7 +35,7 @@
 	* Simplified: (g<sup>a</sup> mod p)<sup>b</sup> mod p = g<sup>ab</sup> mod p and (g<sup>b</sup> mod p)<sup>a</sup> mod p = g<sup>ba</sup> mod p
 
 ## Asymmetric
-![asymmetric](https://github.com/OKStateACM/CryptographyNotes/blob/master/asymmetric%20diagram.png)
+![asymmetric](https://imgur.com/a/iLeIrfl)
 * Uses a public and private key that are mathematically linked, public for encryption and private for decryption
 * Anyone can access user's public key to send them encrypted data, but the data can only be decrypted by the private key, which is kept secret
 * [Visual Example](https://youtu.be/vgTtHV04xRI?list=WL&t=116)
